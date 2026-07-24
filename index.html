@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Senior Secondary Smart School Khosa Randhir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Government Senior Secondary Smart School Khosa Randhir</h1>
+        <p>Moga, Punjab</p>
+    </header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#academics">Academics</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+    
+<!-- Image Slider -->
+<section id="home" class="slider">
+
+    <div class="slides fade">
+        <img src="images/school1.jpg" alt="School Building">
+    </div>
+
+    <div class="slides fade">
+        <img src="images/school2.jpg" alt="Smart Classroom">
+    </div>
+
+    <div class="slides fade">
+        <img src="images/school3.jpg" alt="Science Laboratory">
+    </div>
+
+    <div class="slides fade">
+        <img src="images/school4.jpg" alt="Sports Activities">
+    </div>
+
+    <!-- Previous & Next Buttons -->
+    <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+
+    <!-- Navigation Dots -->
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+</section>
+
+
+<section class="principal-message">
+
+    <h2>Principal's Message</h2>
+
+    <p>
+        Dear Students, Parents, and Visitors,
+    </p>
+
+    <p>
+        Welcome to <strong>Government Senior Secondary Smart School Khosa Randhir, Moga</strong>. Our school is dedicated to providing quality education in a safe, inclusive, and inspiring environment where every student is encouraged to achieve academic excellence and develop strong moral values.
+    </p>
+
+    <p>
+        We believe that education is the foundation of a successful future. Through modern teaching methods, smart classrooms, and co-curricular activities, we strive to nurture confident, responsible, and compassionate citizens.
+    </p>
+
+    <p>
+        I invite you to explore our website and learn more about the opportunities our school offers. Together, let us inspire every child to dream big and succeed.
+    </p>
+
+    <h3>Best Wishes,<br>Principal</h3>
+
+</section>
+<section class="stats">
+
+    <div class="stat-box">
+        <h2 class="counter" data-target="445">0</h2>
+        <p>Students</p>
+    </div>
+
+    <div class="stat-box">
+        <h2 class="counter" data-target="32">0</h2>
+        <p>Teaching & Non-Teaching Staff</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>6–12</h2>
+        <p>Classes</p>
+    </div>
+
+<div class="stat-box">
+    <h2>Available Streams</h2>
+    <ul class="stream-list">
+        <li>Arts</li>
+        <li>Medical</li>
+        <li>Non-Medical</li>
+    </ul>
+</div>
+
+</section>
+<section class="features">
+
+    <h2>Why Choose Our School?</h2>
+
+    <div class="feature-container">
+
+        <div class="feature-box">
+            <h3>🏫 Smart Classrooms</h3>
+            <p>Modern digital classrooms that make learning interactive and engaging.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>👩‍🏫 Experienced Teachers</h3>
+            <p>Qualified and dedicated teachers committed to every student's success.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>🧪 Science Laboratories</h3>
+            <p>Well-equipped Physics, Chemistry and Biology laboratories.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>💻 Computer Lab</h3>
+            <p>Computer education with internet-enabled learning resources.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>📚 Library</h3>
+            <p>A rich collection of books, magazines and learning materials.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>⚽ Sports & Games</h3>
+            <p>Encouraging physical fitness, teamwork and leadership through sports.</p>
+        </div>
+
+    </div>
+
+</section>
+
+    <section class="notice-board">
+    <h2>📢 Latest Notices</h2>
+
+    <div class="notice-container">
+        <ul id="noticeList">
+            <li>📌 Admissions Open for Classes VI to XII.</li>
+            <li>📅 Parent-Teacher Meeting on 25 July 2026.</li>
+            <li>🏆 Science Exhibition on 5 August 2026.</li>
+            <li>🎉 Independence Day Celebration on 15 August 2026.</li>
+            <li>📚 Summer Vacation Homework Submission by 28 July 2026.</li>
+        </ul>
+    </div>
+</section>
+<div class="top-bar">
+    <button id="themeBtn">🌙 Dark Mode</button>
+    <p id="datetime"></p>
+</div>
+    <section class="hero">
+        <h2>Welcome to Our School</h2>
+        <p>Empowering Students Through Quality Education</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Our School</h2>
+        <p>
+            Government Senior Secondary Smart School Khosa Randhir is a
+            government school located in Moga, Punjab. The school offers
+            quality education from Classes VI to XII with modern facilities
+            and experienced teachers.
+        </p>
+    </section>
+
+    <section id="academics" class="academics">
+        <h2>Academics</h2>
+
+        <h3>Classes Offered</h3>
+        <ul>
+            <li>Class VI</li>
+            <li>Class VII</li>
+            <li>Class VIII</li>
+            <li>Class IX</li>
+            <li>Class X</li>
+            <li>Class XI</li>
+            <li>Class XII</li>
+        </ul>
+
+        <h3>Streams</h3>
+        <ul>
+            <li>Arts</li>
+            <li>Science (Medical)</li>
+            <li>Science (Non-Medical)</li>
+        </ul>
+    </section>
+
+    <section class="facilities">
+        <h2>Facilities</h2>
+        <ul>
+            <li>Smart Classrooms</li>
+            <li>Science Labs</li>
+            <li>Computer Lab</li>
+            <li>Library</li>
+            <li>Sports Ground</li>
+            <li>Clean Drinking Water</li>
+        </ul>
+    </section>
+<section id="gallery" class="gallery">
+
+    <h2>Photo Gallery</h2>
+
+    <div class="gallery-container">
+
+        <img src="images/gallery1.jpg" alt="School Building">
+        <img src="images/gallery2.jpg" alt="Morning Assembly">
+        <img src="images/gallery3.jpg" alt="Smart Classroom">
+        <img src="images/gallery4.jpg" alt="Science Lab">
+        <img src="images/gallery5.jpg" alt="Sports Day">
+        <img src="images/gallery6.jpg" alt="School Event">
+
+    </div>
+
+</section>
+<div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img id="lightbox-img" src="" alt="">
+</div>
+   <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+
+        <p><strong>School Name:</strong><br>
+        Government Senior Secondary Smart School Khosa Randhir</p>
+
+        <p><strong>City:</strong> Moga</p>
+
+        <p><strong>State:</strong> Punjab</p>
+
+        <p><strong>Email:</strong>
+        <a href="mailto:moga.gssskhosarandhir@punjabeducation.gov.in">
+        moga.gssskhosarandhir@punjabeducation.gov.in
+        </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Government Senior Secondary Smart School Khosa Randhir. All Rights Reserved.</p>
+    </footer>
+<button id="topBtn">⬆ Top</button>
+<script src="script.js"></script>
+</body>
+</html>
